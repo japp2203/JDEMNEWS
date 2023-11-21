@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'truelike';
+    src: url(fontes/Truelike-lwyV.ttf);
+}
+
+@font-face {
+    font-family: 'quiet';
+    src: url(fontes/QuietStreets-yrYM.ttf);
+}
+
+@font-face {
+    font-family: 'square';
+    src: url(fontes/TimesSquare-m105.ttf);
+}
+
+@font-face {
+    font-family: 'london';
+    src: url(fontes/OldLondon.ttf);
+}
+
+@font-face {
+    font-family: 'cloister';
+    src: url(fontes/CloisterBlack.ttf);
+}
+
+@font-face {
+    font-family: 'chomsky';
+    src: url(fontes/Chomsky.woff);
+}
+
+
+h1 {
+    font-family: 'truelike', 'Courier New', Courier, monospace;
+    font-size: 150px;
+    color: #0a0a88;
+    /* margin-left: 22rem; */
+}
+
+h2 {
+    font-family: 'chomsky', 'Courier New', Courier, monospace;
+    font-size: 160px;
+    /* margin-top: 3rem; */
+    /* margin-left: 1rem; */
+}
+
+.listas {
+    display: inline-flex;
+    /* display:flex; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    bottom: auto;
+    border-radius:100%;
+}
+
+.line {
+    padding: 1.50px;
+    background-color: #0a0a88;
+}
+
+.p1 {
+    /* background-color: brown; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 10px;
+    border: yellowgreen;
+}
+
+#cabecalho {
+    background-image: url(imagens/textura_papernews.jpeg);
+}
+
+#section1 {
+    padding: 28rem;
+    background-image: url(imagens/the\ new\ york\ times.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 25px;
+}
