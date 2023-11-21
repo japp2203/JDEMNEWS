@@ -10,18 +10,18 @@
 }
 
 @font-face {
-    font-family: 'quiet';
-    src: url(fontes/QuietStreets-yrYM.ttf);
+    font-family: 'deutshslander';
+    src: url(fontes/Deutschlander-O5we.ttf);
 }
 
 @font-face {
-    font-family: 'square';
-    src: url(fontes/TimesSquare-m105.ttf);
+    font-family: 'fools';
+    src: url(fontes/FoolsErrand-Azr7.ttf);
 }
 
 @font-face {
-    font-family: 'london';
-    src: url(fontes/OldLondon.ttf);
+    font-family: 'homunculus';
+    src: url(fontes/Homunculus-zVDa.ttf);
 }
 
 @font-face {
@@ -36,15 +36,15 @@
 
 
 h1 {
-    font-family: 'truelike', 'Courier New', Courier, monospace;
-    font-size: 150px;
-    color: #0a0a88;
-    /* margin-left: 22rem; */
+    font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
+    font-size: 200px;
+    color: #020233;
+    margin-left: 3rem;
 }
 
 h2 {
     font-family: 'chomsky', 'Courier New', Courier, monospace;
-    font-size: 160px;
+    font-size: 200px;
     /* margin-top: 3rem; */
     /* margin-left: 1rem; */
 }
@@ -54,8 +54,7 @@ h2 {
     /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
-    bottom: auto;
-    border-radius:100%;
+    border-radius: 100%;
 }
 
 .line {
@@ -63,13 +62,34 @@ h2 {
     background-color: #0a0a88;
 }
 
-.p1 {
-    /* background-color: brown; */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
-    margin-top: 70px;
+.b1>button {
+    padding: 15px 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'deutshslander', 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 40px;
     margin-left: 10px;
-    border: yellowgreen;
+    border: 3px solid #0a0a88;
+}
+
+.b2>button {
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'fools', Arial, 'deutshslander', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: -900;
+    border: none;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+  
+}
+
+.clima {
+    font-family: 'homunculus', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
 }
 
 #cabecalho {
