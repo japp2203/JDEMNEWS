@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 @font-face {
@@ -109,13 +110,16 @@ h2 {
 }
 
 #section1 {
-    padding: 28rem;
-    background-image: url(imagens/the\ new\ york\ times.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: -39px;
-    flex-wrap: wrap;
+    /* padding: 28rem; */
+    /* background-image: url(imagens/the\ new\ york\ times.png); */
+    background-image: url(imagens/textura_papernews.jpeg);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* display:flexbox; */
 }
 
 #inside_lines {
@@ -157,4 +161,35 @@ h2 {
     /* font-weight: 900; */
     margin-left: 190px;
     /* margin-top:  8px; */
+}
+
+#noticia1 {
+    color: #0a0a88;
+    border: solid 3px;
+    height: 700px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 2px;
+    /* position: relative; */
+}
+
+#noticia2 {
+    color: #0a0a88;
+    border: solid 3px;
+    height: 700px;
+    width: 926px;
+    border-radius: 5px;
+    margin-top: -706px;
+    margin-left: 209px;
+}
+
+#noticia3 {
+    color: #0a0a88;
+    border: solid 3px;
+    height: 700px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: -706px;
+    margin-left: 1142px;
 }
