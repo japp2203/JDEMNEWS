@@ -34,11 +34,22 @@
     src: url(fontes/Chomsky.woff);
 }
 
+@font-face {
+    font-family: 'square';
+    src: url(fontes/TimesSquare-m105.ttf);
+}
+
+@font-face {
+    font-family: 'slim';
+    src: url(fontes/Slimlines-MMKJ.ttf);
+}
+
 
 h1 {
     font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
     font-size: 200px;
-    color: #020233;
+    /* color: #020233; */
+    color: rgb(125, 0, 0);
     margin-left: 3rem;
 }
 
@@ -84,7 +95,7 @@ h2 {
     text-align: left;
     margin-top: 40px;
     margin-left: 40px;
-  
+
 }
 
 .clima {
@@ -94,6 +105,7 @@ h2 {
 
 #cabecalho {
     background-image: url(imagens/textura_papernews.jpeg);
+    flex-wrap: wrap;
 }
 
 #section1 {
@@ -102,5 +114,47 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 25px;
+    margin-top: -39px;
+    flex-wrap: wrap;
+}
+
+#inside_lines {
+    padding: 8px;
+    display: flex;
+    justify-content: left;
+}
+
+#p1 {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#p2 {
+    font-family: monospace;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 95px;
+    /* margin-top: 8px; */
+    font-weight: 900;
+}
+
+#p3 {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    margin-left: 90px;
+    /* margin-top:  8px; */
+}
+
+#p4 {
+    font-family: 'slim', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: inherit;
+    /* font-weight: 900; */
+    margin-left: 190px;
+    /* margin-top:  8px; */
 }
