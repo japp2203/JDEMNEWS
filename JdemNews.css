@@ -62,7 +62,7 @@ h2 {
 }
 
 .listas {
-    display: inline-flex;
+    display:flex;
     /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -125,7 +125,8 @@ h2 {
 #inside_lines {
     padding: 8px;
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
+   /* justify-content: left;*/
 }
 
 #p1 {
