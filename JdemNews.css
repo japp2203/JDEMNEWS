@@ -62,11 +62,11 @@ h2 {
 }
 
 .listas {
-    display:flex;
+    display: flex;
     /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border-radius: 100%;
+    /* border-radius: 100%; */
 }
 
 .line {
@@ -110,6 +110,7 @@ h2 {
 }
 
 #section1 {
+    border: 0;
     /* padding: 28rem; */
     /* background-image: url(imagens/the\ new\ york\ times.png); */
     background-image: url(imagens/textura_papernews.jpeg);
@@ -119,14 +120,15 @@ h2 {
     /* flex-wrap: wrap; */
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap; */
-    /* display:flexbox; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #inside_lines {
     padding: 8px;
     display: flex;
     justify-content: space-evenly;
-   /* justify-content: left;*/
+    /* justify-content: left;*/
 }
 
 #p1 {
@@ -164,28 +166,70 @@ h2 {
     /* margin-top:  8px; */
 }
 
-#noticia1 {
+#esportes {
+    background-image: url(imagens/esportes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: black;
-    border: solid 1px;
+    /* border: solid 1px; */
     height: 233px;
-    width: 200px;
+    width: 308px;
     border-radius: 0px;
-    margin-top: 0px;
-    margin-left: 2px;
+    color: black;
+    /* border: solid 1px; */
+    /* margin-top: 0px; */
+    /* margin-left: 2px; */
     /* position: relative; */
 }
 
-#noticia2 {
+#internacionais {
     background-image: url(imagens/noticia2/GBL-VLS-29.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
-    border: solid 1px;
+    /* border: solid 1px; */
     height: 233px;
     width: 308px;
     border-radius: 0px;
-    margin-top: -240px;
-    margin-left: 209px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
+}
+#brasil {
+    background-image: url(imagens/);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
+}
+
+#tecnologia {
+    background-image: url(imagens/tecnologia.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
+}
+#economia {
+    background-image: url(imagens/economia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
 }
 
 #noticia2>img {
@@ -195,10 +239,10 @@ h2 {
 
 #noticia3 {
     color: black;
-    border: solid 1px;
+    /* border: solid 1px; */
     height: 233px;
     width: 200px;
     border-radius: 0px;
-    margin-top: -240px;
-    margin-left: 1142px;
+    /* margin-top: -240px; */
+    /* margin-left: 1142px; */
 }
