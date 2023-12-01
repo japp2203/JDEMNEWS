@@ -62,7 +62,7 @@ h2 {
 }
 
 .listas {
-    display: inline-flex;
+    display: flex;
     /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -164,22 +164,102 @@ h2 {
 }
 
 #noticia2>div {
-padding: 8rem;
-display:inline-flex;
-justify-content:space-evenly;
-background-image: url(imagens/noticia2/GBL-VLS-29.jpg);
-background-repeat: no-repeat;
-background-position-x:left;
-background-size:contain;
-margin: 20px;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(imagens/noticia2/GBL-VLS-29.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: contain;
+    margin: 20px;
 }
 
-#noticia2>div>img {
- /* width: 250%; */
- /* height: 250%;     */
-}
 
-#noticia2>div>a>img{
+#noticia2>div>a>img {
     width: 5%;
     height: 20%;
 }
+
+
+ /*Inicio da edição do menu lateral*/
+#menu-noticia {
+    width: 26%;
+ 
+}
+
+#menu-noticia>nav>ul>a {
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 30px;
+    border: 3px solid rgb(225, 225, 232);
+}
+
+#menu-noticia>nav>ul>a:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.295);
+    transition: 1.0s;
+}
+ /*Fim edição do menu lateral*/
+
+
+ /*inicio da edição das noticias aleatorias*/
+#noticias {
+    justify-content: space-evenly;
+    width: 74%;
+    display: flex;
+}
+
+.geral {
+    text-align: center;
+    display: block;
+  margin: 14px;
+    height:60vh ;
+    width: 25%;
+    display: flex;
+   
+
+}
+
+.geral >p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+color: rgb(43, 40, 40);
+}
+
+.tudo {
+    display: flex;
+}
+
+
+
+.geral>img {
+    margin: 0;
+    margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+ /*Fim da edição das noticias*/
+
+ /*Inicio da edição do mapa lateral*/
+#mapa {
+    width: 25%;
+    margin-top: -27%;
+margin-left: 2%;
+border-radius: 20px;
+}
+
+.maps {
+    width: 100%;
+    margin: 0;
+    height: 68vh;
+    border: 0;
+}
+ /*Fim da edição do mapa*/
