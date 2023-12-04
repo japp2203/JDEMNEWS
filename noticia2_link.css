@@ -45,6 +45,10 @@
     src: url(fontes/Slimlines-MMKJ.ttf);
 }
 
+body{
+    background-image: url(imagens/textura_papernews.jpeg);
+}
+
 
 h1 {
     font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
@@ -189,20 +193,19 @@ h2 {
 
 #menu-noticia>nav>ul>a {
     width: 80%;
-    text-align: center;
     text-decoration: none;
     margin: 1%;
     font-size: 1.3em;
     font-weight: 500;
     color: rgb(0, 0, 0);
     display: block;
-    padding: 30px;
-    border: 3px solid rgb(225, 225, 232);
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #menu-noticia>nav>ul>a:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.473);
     transition: 1.0s;
 }
  /*Fim edição do menu lateral*/
@@ -227,19 +230,23 @@ h2 {
 }
 
 .geral >p {
+   
     text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-color: rgb(43, 40, 40);
+    font-size: 26px;
+    font-weight: 800;
+color: rgb(15, 15, 15);
 }
 
 .tudo {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 
 .geral>img {
+    border: 2px solid black;
+    height: 50%;
     margin: 0;
     margin: 10px;
     width: 100%;
@@ -250,16 +257,16 @@ color: rgb(43, 40, 40);
 
  /*Inicio da edição do mapa lateral*/
 #mapa {
-    width: 25%;
-    margin-top: -27%;
-margin-left: 2%;
+    width: 23%;
+    margin-top: -39%;
+margin-left: 1%;
 border-radius: 20px;
 }
 
 .maps {
     width: 100%;
     margin: 0;
-    height: 68vh;
+    height: 60vh;
     border: 0;
 }
  /*Fim da edição do mapa*/
