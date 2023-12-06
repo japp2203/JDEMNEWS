@@ -254,22 +254,17 @@ color: rgb(15, 15, 15);
     border: 2px solid black;
     height: 50%;
     margin: 0;
-    margin: 10px;
+    margin: 12px;
     width: 100%;
     border-radius: 20px;
 
 }
 
-.amostra2 > .geral>img {
-  display: flex;
-    border: 2px solid black;
-    height: 50%;
-    margin: 0;
-    margin: 10px;
-    width: 100%;
-    border-radius: 20px;
 
+.amostra2{
+    display: flex;
 }
+
  /*Fim da edição das noticias*/
 
  /*Inicio da edição do mapa lateral*/
