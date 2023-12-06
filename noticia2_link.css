@@ -45,9 +45,6 @@
     src: url(fontes/Slimlines-MMKJ.ttf);
 }
 
-body{
-    background-image: url(imagens/textura_papernews.jpeg);
-}
 
 
 h1 {
@@ -178,29 +175,37 @@ h2 {
     margin: 20px;
 }
 
+div >.titulo-noticias{
+   font-size:7.0em ;
+   font-weight: 500;
+    text-align: center;
+    color: #000000;
+}
 
-#noticia2>div>a>img {
+
+#noticias> .amostra1> div>a>img {
+
+    display: flex;
     width: 5%;
     height: 20%;
 }
 
 
  /*Inicio da edição do menu lateral*/
-#menu-noticia {
-    width: 26%;
- 
+ #menu-noticia>nav>ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 #menu-noticia>nav>ul>a {
-    width: 80%;
     text-decoration: none;
-    margin: 1%;
+  
     font-size: 1.3em;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    display: block;
-    padding: 20px;
-    border: 3px solid rgb(0, 0, 0);
+
+    padding: 15px;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 #menu-noticia>nav>ul>a:hover {
@@ -213,17 +218,18 @@ h2 {
 
  /*inicio da edição das noticias aleatorias*/
 #noticias {
-    justify-content: space-evenly;
-    width: 74%;
+    justify-content: space-between;
+    width: 100%;
     display: flex;
 }
 
 .geral {
+  
     text-align: center;
     display: block;
-  margin: 14px;
-    height:60vh ;
-    width: 25%;
+    margin:  14px ;
+    height:50vh ;
+    width: 22%;
     display: flex;
    
 
@@ -237,14 +243,25 @@ h2 {
 color: rgb(15, 15, 15);
 }
 
-.tudo {
+
+
+.amostra1{
     display: flex;
-    flex-wrap: wrap;
 }
 
-
-
 .geral>img {
+  display: flex;
+    border: 2px solid black;
+    height: 50%;
+    margin: 0;
+    margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.amostra2 > .geral>img {
+  display: flex;
     border: 2px solid black;
     height: 50%;
     margin: 0;
@@ -257,16 +274,16 @@ color: rgb(15, 15, 15);
 
  /*Inicio da edição do mapa lateral*/
 #mapa {
-    width: 23%;
-    margin-top: -39%;
-margin-left: 1%;
-border-radius: 20px;
+    width: 80%;
+margin: 10px;
+border-radius: 30px;
+margin-left: 13%;
 }
 
 .maps {
     width: 100%;
     margin: 0;
-    height: 60vh;
+    height: 40vh;
     border: 0;
 }
  /*Fim da edição do mapa*/
