@@ -45,7 +45,9 @@
     src: url(fontes/Slimlines-MMKJ.ttf);
 }
 
-
+body {
+    background-image: url(imagens/textura_papernews.jpeg);
+}
 
 h1 {
     font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
