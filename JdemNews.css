@@ -74,7 +74,13 @@ h2 {
     background-color: #0a0a88;
 }
 
+.b1 img {
+    width: 25%;
+   
+   }
+
 .b1>button {
+    display: none;
     padding: 15px 15px;
     background-color: transparent;
     cursor: pointer;
