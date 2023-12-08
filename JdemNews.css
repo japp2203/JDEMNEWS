@@ -283,7 +283,7 @@ color: rgb(15, 15, 15);
  /*Inicio da edição do mapa lateral*/
 #mapa {
     width: 80%;
-margin: 10px;
+margin: 30px;
 border-radius: 30px;
 margin-left: 13%;
 }
@@ -296,19 +296,46 @@ margin-left: 13%;
 }
  /*Fim da edição do mapa*/
 
- footer {
-    padding: 50px;
-    background-color: #000000;
+#rodape{
+    align-items: center;
+    background-color: #23212170;
+    display: flex;
+   
  }
 
+ #rodape > .footer-part1{
+    align-items: center;
+    padding:0 16% ;
+    background-color: #111010;
+    display: flex;
+   
+ }
 
- footer > ul > li > a {
-   font-family: 'chomsky',Arial, Helvetica, sans-serif;
-   text-decoration: none;
-   font-size: 2rem;
-   color: rgb(255, 255, 255)
+.lista-footer {
+    display: flex;
+    margin: 0 auto;
+   
+    
+ }
 
-    
-    
+ .lista-footer>a  {
+    text-decoration: none;
+    margin-right: 26px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #3b3a3a;
+    padding: 100% -10% ;
+    border-right: 2px solid #222222;
+    padding-right:12px;
+ }
+
+ .lista-footer>a:hover{
+    color: #5b5959;
+ }
+
+#rodape >.footer-texto{
+    color: #373535;
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-top: -4%;
 }
-
