@@ -45,9 +45,6 @@
     src: url(fontes/Slimlines-MMKJ.ttf);
 }
 
-body {
-    background-image: url(imagens/textura_papernews.jpeg);
-}
 
 h1 {
     font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
@@ -69,7 +66,7 @@ h2 {
     /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border-radius: 100%;
+    /* border-radius: 100%; */
 }
 
 .line {
@@ -77,14 +74,14 @@ h2 {
     background-color: #0a0a88;
 }
 
-#logo {
+.logo_header {
     width: 10%;
     height: 10%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+
 }
-
-
 
 .b1>button {
     display: none;
@@ -123,6 +120,7 @@ h2 {
 }
 
 #section1 {
+    border: 0;
     /* padding: 28rem; */
     /* background-image: url(imagens/the\ new\ york\ times.png); */
     background-image: url(imagens/textura_papernews.jpeg);
@@ -132,13 +130,15 @@ h2 {
     /* flex-wrap: wrap; */
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap; */
-    /* display:flexbox; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #inside_lines {
     padding: 8px;
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
+    /* justify-content: left;*/
 }
 
 #p1 {
@@ -176,139 +176,161 @@ h2 {
     /* margin-top:  8px; */
 }
 
-#noticia2>div {
-    padding: 8rem;
+body {
+    background-image: url(imagens/textura_papernews.jpeg);
+}
+
+#hr_voltar {
+    margin: 20px 100px;
+    width: 80%;
+    color;
+    /* border-color: red; */
+    height: 1px;
+    box-shadow: 0px 1px red;
+
+}
+
+#icono_voltar {
+    width: 2.5%;
+    background-color: transparent;
+
+}
+
+#Texto_voltar {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    justify-content: space-around;
+}
+
+#Texto_voltar_sup {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    margin-right: 5rem;
+}
+
+.Titulo_ppal h2 {
+    font-family: 'chomsky', 'Times New Roman', Times, serif;
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #0a0a88;
+}
+
+#img-noticia {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+
+
+}
+
+#img-noticia img {
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    border-radius: 13%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+}
+
+#esportes {
+    background-image: url(imagens/esportes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    color: black;
+    /* border: solid 1px; */
+    /* margin-top: 0px; */
+    /* margin-left: 2px; */
+    /* position: relative; */
+}
+
+#internacionais {
     background-image: url(imagens/noticia2/GBL-VLS-29.jpg);
     background-repeat: no-repeat;
-    background-position-x: left;
-    background-size: contain;
-    margin: 20px;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
 }
 
-div >.titulo-noticias{
-   font-size:7.0em ;
-   font-weight: 500;
-    text-align: center;
-    color: #000000;
+#brasil {
+    background-image: url(imagens/);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
 }
 
-
-#noticias> .amostra1> div>a>img {
-
-    display: flex;
-    width: 5%;
-    height: 20%;
+#tecnologia {
+    background-image: url(imagens/tecnologia.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
 }
 
-
- /*Inicio da edição do menu lateral*/
- #menu-noticia>nav>ul {
-    display: flex;
-    justify-content: space-around;
+#economia {
+    background-image: url(imagens/economia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 308px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 209px; */
 }
 
-#menu-noticia>nav>ul>a {
-    text-decoration: none;
-    font-family: 'slim', 'Times New Roman', Times, serif;
-  
-    font-size: 1.3em;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-
-    padding: 15px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+#noticia2>img {
+    width: 40%;
+    height: 40%;
 }
 
-#menu-noticia>nav>ul>a:hover {
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.473);
-    transition: 1.0s;
+#noticia3 {
+    color: black;
+    /* border: solid 1px; */
+    height: 233px;
+    width: 200px;
+    border-radius: 0px;
+    /* margin-top: -240px; */
+    /* margin-left: 1142px; */
 }
- /*Fim edição do menu lateral*/
-
-
- /*inicio da edição das noticias aleatorias*/
-#noticias {
-    justify-content: space-between;
-    width: 100%;
-    display: flex;
-}
-
-.geral {
-  
-    text-align: center;
-    display: block;
-    margin:  14px ;
-    height:50vh ;
-    width: 22%;
-    display: flex;
-   
-
-}
-
-.geral >p {
-   
-    text-align: center;
-    font-size: 26px;
-    font-weight: 800;
-color: rgb(15, 15, 15);
-}
-
-
-
-.amostra1{
-    display: flex;
-}
-
-.geral>img {
-  display: flex;
-    border: 2px solid black;
-    height: 50%;
-    margin: 0;
-    margin: 12px;
-    width: 100%;
-    border-radius: 20px;
-
-}
-
-
-.amostra2{
-    display: flex;
-}
-
- /*Fim da edição das noticias*/
-
- /*Inicio da edição do mapa lateral*/
-#mapa {
-    width: 80%;
-margin: 10px;
-border-radius: 30px;
-margin-left: 13%;
-}
-
-.maps {
-    width: 100%;
-    margin: 0;
-    height: 40vh;
-    border: 0;
-}
- /*Fim da edição do mapa*/
-
- footer {
-    padding: 50px;
-    background-color: #000000;
- }
-
-
- footer > ul > li > a {
-   font-family: 'chomsky',Arial, Helvetica, sans-serif;
-   text-decoration: none;
-   font-size: 2rem;
-   color: rgb(255, 255, 255)
-
-    
-    
-}
-
