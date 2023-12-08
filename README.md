@@ -3,6 +3,7 @@
 
 <a>
 https://github.com/japp2203/JDEMNEWS/tree/main
-</a>
 
-  <img src="qr_jdemnews" alt="Minha 
+  <img src="qr_jdemnews" alt="Minha
+
+</a>
