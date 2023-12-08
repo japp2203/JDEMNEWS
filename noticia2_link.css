@@ -77,9 +77,17 @@ h2 {
     background-color: #0a0a88;
 }
 
+#logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 
 .b1>button {
+    display: none;
     padding: 15px 15px;
     background-color: transparent;
     cursor: pointer;
@@ -203,6 +211,7 @@ div >.titulo-noticias{
 
 #menu-noticia>nav>ul>a {
     text-decoration: none;
+    font-family: 'slim', 'Times New Roman', Times, serif;
   
     font-size: 1.3em;
     font-weight: 500;

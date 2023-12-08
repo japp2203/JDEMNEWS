@@ -74,8 +74,12 @@ h2 {
     background-color: #0a0a88;
 }
 
-.b1 img {
-    width: 25%;
+.logo_header{
+    width: 10%;
+    height: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
    
    }
 
