@@ -219,6 +219,12 @@ body {
     margin-right: 5rem;
 }
 
+.Titulo_ppal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .Titulo_ppal h2 {
     font-family: 'chomsky', 'Times New Roman', Times, serif;
     font-size: 65px;
@@ -229,29 +235,63 @@ body {
     color: #0a0a88;
 }
 
-#img-noticia {
+.Titulo_ppal h4 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+#img-noticia {
+    justify-content: left;
     align-items: center;
     display: flex;
     align-content: center;
+    margin-left: 3rem;
 
 
 }
 
 #img-noticia img {
     width: 30%;
-    height: 30%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    align-content: center;
-    border-radius: 13%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    border-radius: 4%;
+    margin-bottom: 1rem;
+    margin-top: -8rem;
+    margin-left: 6em;
+    
+}
 
+#tit_not > h3 {
+    /* font-family: 'chomsky', 'Times New Roman', Times, serif; */
+    font-size: 38px;
+    /* display: flex; */
+    align-items: center;
+    text-align:left;
+    justify-content: center;
+    color: #000000bd;
+    margin-top: 2rem;
+    margin-left: 18em;
+    margin-right: 3em;
 
 }
 
+p {
+    /* font-family: 'chomsky', 'Times New Roman', Times, serif; */
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: #000000fd;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* ******** AQUI VOY ************* */
 #esportes {
     background-image: url(imagens/esportes.jpg);
     background-repeat: no-repeat;
