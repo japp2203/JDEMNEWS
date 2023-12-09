@@ -121,15 +121,7 @@ h2 {
 
 #section1 {
     border: 0;
-    /* padding: 28rem; */
-    /* background-image: url(imagens/the\ new\ york\ times.png); */
     background-image: url(imagens/textura_papernews.jpeg);
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100%; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -193,6 +185,7 @@ body {
 #icono_voltar {
     width: 2.5%;
     background-color: transparent;
+    margin-left: 2rem;
 
 }
 

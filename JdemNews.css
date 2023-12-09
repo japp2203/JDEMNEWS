@@ -123,16 +123,7 @@ h2 {
 }
 
 #section1 {
-    /* padding: 28rem; */
-    /* background-image: url(imagens/the\ new\ york\ times.png); */
     background-image: url(imagens/textura_papernews.jpeg);
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100%; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-    /* display:flexbox; */
 }
 
 #inside_lines {
@@ -245,16 +236,15 @@ div>.titulo-noticias {
 .geral>a {
     text-decoration: none;
     
-
 }
 
 .geral>a>p {
     margin-top: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 1rem;
-    text-align:left;
-    
+    /* margin-bottom: 1rem; */
+    text-align: left;
+
     font-size: 20px;
     font-weight: 800;
     color: rgb(15, 15, 15);
@@ -271,11 +261,10 @@ div>.titulo-noticias {
     display: flex;
     border: 2px solid black;
     width: 19rem;
-    height: 15rem;
+    height: 12rem;
     margin-left: 2rem;
     margin-right: 1rem;
     border-radius: 20px;
-
 }
 
 .amostra2 {
@@ -310,8 +299,11 @@ div>.titulo-noticias {
 
 #rodape>.footer-part1 {
     align-items: center;
-    padding: 0 16%;
-    background-color: #111010;
+    /* padding: 0 16%; */
+    padding: 3rem;
+    /* background-color: #111010; */
+    background: linear-gradient(155deg, #ffffff 32%, rgb(125, 0, 0) 50%);
+
     display: flex;
 
 }
@@ -343,4 +335,27 @@ div>.titulo-noticias {
     margin: 0 auto;
     font-size: 1.2em;
     margin-top: -4%;
+}
+
+body>p {
+    font-size: 35px;
+}
+
+#Texto_voltar_sup {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    margin-right: 5rem;
+}
+
+#icono_voltar {
+    width: 2.5%;
+    background-color: transparent;
+    margin-left: 2rem;
+
 }
