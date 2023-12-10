@@ -15,7 +15,7 @@ QsBank |banco digital
 
 <a href="https://japp2203.github.io/QsBank/aula12">
 
-https://japp2203.github.io/QsBank/aula12
+https://japp2203.github.io/JdemNews/JdemNews.html
 
 		Accese seu site de QsbANK			
 </a>
