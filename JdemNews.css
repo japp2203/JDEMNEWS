@@ -45,6 +45,9 @@
     src: url(fontes/Slimlines-MMKJ.ttf);
 }
 
+body {
+    background-image: url(imagens/textura_papernews.jpeg);
+}
 
 h1 {
     font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
@@ -57,8 +60,7 @@ h1 {
 h2 {
     font-family: 'chomsky', 'Courier New', Courier, monospace;
     font-size: 200px;
-    /* margin-top: 3rem; */
-    /* margin-left: 1rem; */
+    margin-top: 1rem;
 }
 
 .listas {
@@ -66,7 +68,7 @@ h2 {
     /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* border-radius: 100%; */
+    border-radius: 100%;
 }
 
 .line {
@@ -74,7 +76,17 @@ h2 {
     background-color: #0a0a88;
 }
 
+#logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
 .b1>button {
+    display: none;
     padding: 15px 15px;
     background-color: transparent;
     cursor: pointer;
@@ -110,25 +122,13 @@ h2 {
 }
 
 #section1 {
-    border: 0;
-    /* padding: 28rem; */
-    /* background-image: url(imagens/the\ new\ york\ times.png); */
     background-image: url(imagens/textura_papernews.jpeg);
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100%; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-    display: flex;
-    justify-content: space-evenly;
 }
 
 #inside_lines {
     padding: 8px;
     display: flex;
-    justify-content: space-evenly;
-    /* justify-content: left;*/
+    justify-content: left;
 }
 
 #p1 {
@@ -166,83 +166,242 @@ h2 {
     /* margin-top:  8px; */
 }
 
-#esportes {
-    background-image: url(imagens/esportes.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: black;
-    /* border: solid 1px; */
-    height: 233px;
-    width: 308px;
-    border-radius: 0px;
-    color: black;
-    /* border: solid 1px; */
-    /* margin-top: 0px; */
-    /* margin-left: 2px; */
-    /* position: relative; */
-}
-
-#internacionais {
+#noticia2>div {
+    padding: 8rem;
+    display: flex;
+    justify-content: space-around;
     background-image: url(imagens/noticia2/GBL-VLS-29.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    color: black;
-    /* border: solid 1px; */
-    height: 233px;
-    width: 308px;
-    border-radius: 0px;
-    /* margin-top: -240px; */
-    /* margin-left: 209px; */
-}
-#brasil {
-    background-image: url(imagens/);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: black;
-    /* border: solid 1px; */
-    height: 233px;
-    width: 308px;
-    border-radius: 0px;
-    /* margin-top: -240px; */
-    /* margin-left: 209px; */
+    background-position-x: left;
+    background-size: contain;
+    margin: 20px;
 }
 
-#tecnologia {
-    background-image: url(imagens/tecnologia.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: black;
-    /* border: solid 1px; */
-    height: 233px;
-    width: 308px;
-    border-radius: 0px;
-    /* margin-top: -240px; */
-    /* margin-left: 209px; */
-}
-#economia {
-    background-image: url(imagens/economia.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: black;
-    /* border: solid 1px; */
-    height: 233px;
-    width: 308px;
-    border-radius: 0px;
-    /* margin-top: -240px; */
-    /* margin-left: 209px; */
+div>.titulo-noticias {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(125, 0, 0);
+    color: #ffffff;
 }
 
-#noticia2>img {
-    width: 40%;
-    height: 40%;
+div>#mundo {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(0, 58, 125);
+    color: #ffffff;
+}
+div>#esporte {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(0, 125, 48);
+    color: #ffffff;
 }
 
-#noticia3 {
+div>#economia {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(123, 125, 0);
+    color: #000000;
+}
+div>#tecnologia {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(187, 94, 8);
+    color: #000000;
+}
+div>#cultura {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(59, 30, 30);
+    color: #ffffff;
+}
+div>#saude {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(66, 8, 121);
+    color: #ffffff;
+}
+
+
+
+
+/*Inicio da edição do menu lateral*/
+#menu-noticia>nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-noticia>nav>ul>a {
+    text-decoration: none;
+    font-family: 'slim', 'Times New Roman', Times, serif;
+
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+
+    padding: 15px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#menu-noticia>nav>ul>a:hover {
+    cursor: pointer;
+    /* background-color: rgba(0, 0, 0, 0.473); */
+    background-color: rgba(6, 122, 31, 0.733);
+    transition: 1.0s;
+    color: white;
+}
+
+/*Fim edição do menu superior, embaixo de linha azul*/
+
+
+/*inicio da edição das noticias aleatorias*/
+#noticias {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.geral {
+    text-align: center;
+    display: block;
+    margin: 14px;
+    height: 50vh;
+    width: 22%;
+    display: flex;
+
+
+}
+
+.geral>a {
+    text-decoration: none;
+
+}
+
+.geral>a>p {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* margin-bottom: 1rem; */
+    text-align: left;
+
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+
+
+
+.amostra1 {
+    display: flex;
+}
+
+.geral>a>img {
+    display: flex;
+    border: 2px solid black;
+    width: 19rem;
+    height: 12rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+}
+
+.amostra2 {
+    display: flex;
+}
+
+/*Fim da edição das noticias*/
+
+/*Inicio da edição do mapa lateral*/
+#mapa {
+    width: 80%;
+    margin: 30px;
+    border-radius: 30px;
+    margin-left: 13%;
+}
+
+.maps {
+    width: 100%;
+    margin: 0;
+    height: 40vh;
+    border: 0;
+}
+
+/*Fim da edição do mapa*/
+
+#rodape {
+    align-items: center;
+    background-color: #23212170;
+    display: flex;
+
+}
+
+#rodape>.footer-part1 {
+    align-items: center;
+    /* padding: 0 16%; */
+    padding: 3rem;
+    /* background-color: #111010; */
+    background: linear-gradient(155deg, #ffffff 32%, rgb(125, 0, 0) 50%);
+
+    display: flex;
+
+}
+
+.lista-footer {
+    display: flex;
+    margin: 0 auto;
+
+
+}
+
+.lista-footer>a {
+    text-decoration: none;
+    margin-right: 26px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #3b3a3a;
+    padding: 100% -10%;
+    border-right: 2px solid #222222;
+    padding-right: 12px;
+}
+
+.lista-footer>a:hover {
+    color: #5b5959;
+}
+
+#rodape>.footer-texto {
+    color: #373535;
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-top: -4%;
+}
+
+body>p {
+    font-size: 35px;
+}
+
+#Texto_voltar_sup {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
     color: black;
-    /* border: solid 1px; */
-    height: 233px;
-    width: 200px;
-    border-radius: 0px;
-    /* margin-top: -240px; */
-    /* margin-left: 1142px; */
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    margin-right: 5rem;
+}
+
+#icono_voltar {
+    width: 2.5%;
+    background-color: transparent;
+    margin-left: 2rem;
+
 }
