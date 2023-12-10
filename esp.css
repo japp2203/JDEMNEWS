@@ -66,7 +66,6 @@ h2 {
 
 .listas {
     display: flex;
-    /* display:flex; */
     justify-content: space-evenly;
     flex-wrap: wrap;
     border-radius: 100%;
@@ -148,9 +147,14 @@ display: flex;
     /* inrecmentei 3 linhas aqui acima */
 }
 #corpo div img {
-    width: 42em;
-    justify-content: center;
-    margin-right: 0em;
+    display: flex;
+    width: 40.6em;
+    height: 34.3em;
+    justify-content: right;
+    margin-right: em;
+    margin-left: 42em;
+    margin-top: -150px;
+
 /* 
     width: 50px;
     height: 50px;
