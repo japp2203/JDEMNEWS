@@ -60,8 +60,7 @@ h1 {
 h2 {
     font-family: 'chomsky', 'Courier New', Courier, monospace;
     font-size: 200px;
-    /* margin-top: 3rem; */
-    /* margin-left: 1rem; */
+    margin-top: 1rem;
 }
 
 .listas {
@@ -179,11 +178,58 @@ h2 {
 }
 
 div>.titulo-noticias {
-    font-size: 5.0em;
+    font-size: 3.0em;
     font-weight: 500;
     text-align: center;
+    background-color: rgb(125, 0, 0);
+    color: #ffffff;
+}
+
+div>#mundo {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(0, 58, 125);
+    color: #ffffff;
+}
+div>#esporte {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(0, 125, 48);
+    color: #ffffff;
+}
+
+div>#economia {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(123, 125, 0);
     color: #000000;
 }
+div>#tecnologia {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(187, 94, 8);
+    color: #000000;
+}
+div>#cultura {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(59, 30, 30);
+    color: #ffffff;
+}
+div>#saude {
+    font-size: 3.0em;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(66, 8, 121);
+    color: #ffffff;
+}
+
+
 
 
 /*Inicio da edição do menu lateral*/
@@ -235,7 +281,7 @@ div>.titulo-noticias {
 
 .geral>a {
     text-decoration: none;
-    
+
 }
 
 .geral>a>p {
