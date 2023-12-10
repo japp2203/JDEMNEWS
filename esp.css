@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: 'truelike';
+    src: url(fontes/Truelike-lwyV.ttf);
+}
+
+@font-face {
+    font-family: 'deutshslander';
+    src: url(fontes/Deutschlander-O5we.ttf);
+}
+
+@font-face {
+    font-family: 'fools';
+    src: url(fontes/FoolsErrand-Azr7.ttf);
+}
+
+@font-face {
+    font-family: 'homunculus';
+    src: url(fontes/Homunculus-zVDa.ttf);
+}
+
+@font-face {
+    font-family: 'cloister';
+    src: url(fontes/CloisterBlack.ttf);
+}
+
+@font-face {
+    font-family: 'chomsky';
+    src: url(fontes/Chomsky.woff);
+}
+
+@font-face {
+    font-family: 'square';
+    src: url(fontes/TimesSquare-m105.ttf);
+}
+
+@font-face {
+    font-family: 'slim';
+    src: url(fontes/Slimlines-MMKJ.ttf);
+}
+
+body {
+    background-image: url(imagens/textura_papernews.jpeg);
+}
+
+h1 {
+    font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
+    font-size: 200px;
+    /* color: #020233; */
+    color: rgb(125, 0, 0);
+    margin-left: 3rem;
+}
+
+h2 {
+    font-family: 'chomsky', 'Courier New', Courier, monospace;
+    font-size: 200px;
+    /* margin-top: 3rem; */
+    /* margin-left: 1rem; */
+}
+
+.listas {
+    display: flex;
+    /* display:flex; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 100%;
+}
+
+.line {
+    padding: 1.50px;
+    background-color: #0a0a88;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.b1>button {
+    display: none;
+    padding: 15px 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'deutshslander', 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 3px solid #0a0a88;
+}
+
+.b2>button {
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'fools', Arial, 'deutshslander', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: -900;
+    border: none;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.clima {
+    font-family: 'homunculus', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+#cabecalho {
+    background-image: url(imagens/textura_papernews.jpeg);
+    flex-wrap: wrap;
+}
+
+
+/* ................................................................................................. */
+.corpo {
+padding: 16.6%;
+display: flex;
+}
+
+.titulo {
+  text-align: center;
+  justify-content: center;
+  margin-top: 1%;
+  font-size: 5em;
+}
+
+.texto {
+    justify-content: left;
+    text-align: center;
+    margin-left: 4em;
+    margin-top: 5%;
+    font-size: 1.7em;
+ /* height:50vh ; */
+    width: 25%;
+    display: flex; 
+    /* inrecmentei 3 linhas aqui acima */
+}
+#corpo div img {
+    width: 42em;
+    justify-content: center;
+    margin-right: 0em;
+/* 
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    margin-left: 0px;
+    display: flex; */
+    /* border: 2px solid black; */
+    /* margin-top: 90px;
+    margin: 3%; */
+    /* border-radius: 20px; */
+    /* align-items: right; */
+    /* justify-content: right; */
+    } 
+
+
+
