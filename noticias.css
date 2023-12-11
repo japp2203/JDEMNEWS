@@ -130,7 +130,8 @@ h2 {
     padding: 8px;
     display: flex;
     justify-content: space-evenly;
-    /* justify-content: left;*/
+    justify-content: left;
+    margin-left: -3rem;
 }
 
 #p1 {
@@ -145,8 +146,7 @@ h2 {
     font-size: 18px;
     font-style: italic;
     font-weight: lighter;
-    margin-left: 95px;
-    /* margin-top: 8px; */
+    margin-left: 1rem;
     font-weight: 900;
 }
 
@@ -155,18 +155,46 @@ h2 {
     font-size: 25px;
     font-style: italic;
     font-weight: 900;
-    margin-left: 90px;
-    /* margin-top:  8px; */
+    margin-left: 1rem;
+
 }
 
 #p4 {
     font-family: 'slim', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: inherit;
-    /* font-weight: 900; */
-    margin-left: 190px;
-    /* margin-top:  8px; */
+    margin-left: -1rem;
+    
 }
+
+/*Inicio da edição do menu superior*/
+#menu-noticia>nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-noticia>nav>ul>a {
+    text-decoration: none;
+    font-family: 'slim', 'Times New Roman', Times, serif;
+
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+
+    padding: 15px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#menu-noticia>nav>ul>a:hover {
+    cursor: pointer;
+    /* background-color: rgba(0, 0, 0, 0.473); */
+    background-color: rgba(6, 122, 31, 0.733);
+    transition: 1.0s;
+    color: white;
+}
+
+/*Fim edição do menu superior, embaixo de linha azul*/
+
 
 body {
     background-image: url(imagens/textura_papernews.jpeg);
@@ -255,15 +283,15 @@ body {
     margin-bottom: 1rem;
     margin-top: -8rem;
     margin-left: 6em;
-    
+
 }
 
-#tit_not > h3 {
+#tit_not>h3 {
     /* font-family: 'chomsky', 'Times New Roman', Times, serif; */
     font-size: 38px;
     /* display: flex; */
     align-items: center;
-    text-align:left;
+    text-align: left;
     justify-content: center;
     color: #000000bd;
     margin-top: 2rem;
