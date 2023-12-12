@@ -83,6 +83,13 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 
 .b1>button {
@@ -323,8 +330,8 @@ div>#saude {
 
 .geral>a>p:hover {
     margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     /* margin-bottom: 1rem; */
     text-align: left;
 
@@ -353,9 +360,10 @@ div>#saude {
 
 .geral>a>img:hover {
     display: flex;
+    transition: 1.7s;
     /* border: 2px solid black; */
-    width: 21rem;
-    height: 14rem;
+    width: 20rem;
+    height: 13rem;
     margin-left: 2rem;
     margin-right: 1rem;
     /* border-radius: 20px; */
@@ -396,7 +404,8 @@ div>#saude {
     /* padding: 0 16%; */
     padding: 3rem;
     /* background-color: #111010; */
-    background: linear-gradient(155deg, #ffffff 32%, rgb(125, 0, 0) 50%);
+    background: linear-gradient(18deg, #ffffff 22%, rgb(125, 0, 0) 55%);
+    border-bottom: 4px solid red;
 
     display: flex;
 
@@ -451,5 +460,73 @@ body>p {
     width: 2.5%;
     background-color: transparent;
     margin-left: 2rem;
+
+}
+
+@media(max-width:430px){
+  
+    .amostra1{
+        display: block;
+        margin-left: 3%;
+     
+    }
+
+    .amostra2{
+        display: block;
+        margin-left: 3%;
+    }
+
+  #rodape{
+        display: block;
+    }
+
+    #rodape>.footer-part1 {
+        align-items: center;
+        /* padding: 0 16%; */
+        padding: 3rem;
+        /* background-color: #111010; */
+        background: linear-gradient(3deg, #ffffff 10%, rgb(125, 0, 0) 55%);
+        border-bottom: 4px solid red;
+    
+        display: flex;
+    
+    }
+    .footer-part1{
+    align-items: center;
+    }
+
+.logo{
+      margin-left: 45%;
+      width: 13%;
+    height: 13%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+    .lista-footer>a {
+        text-decoration: none;
+        margin-right: 3px;
+        text-align: center;
+        font-size: 1.1em;
+        color: #1d1c1c;
+        padding: 100% -10%;
+        border-right: 2px solid #222222;
+        padding-right: 4px;
+        flex-wrap: nowrap;
+    }
+
+    #rodape>.footer-texto {
+        color: #020202;
+        margin: 0 auto;
+        font-size: 1.0em;
+        margin-top: -6%;
+        margin-left:11%;
+        
+    }
+
+    .maps{
+        border-radius: 30px;
+    }
 
 }
