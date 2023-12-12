@@ -54,11 +54,35 @@ h1 {
     margin-left: 3rem;
 }
 
-h2 {
+@media(max-width:430px) {
+    h1 {
+        font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
+        font-size: 80px;
+        /* color: #020233; */
+        color: rgb(125, 0, 0);
+        margin-left: 4rem;
+        margin-top: -8rem;
+    }
+}
+
+
+#h2_news {
     font-family: 'chomsky', 'Courier New', Courier, monospace;
     font-size: 200px;
     /* margin-top: 3rem; */
     /* margin-left: 1rem; */
+}
+
+@media(max-width:430px) {
+    #h2_news {
+        font-family: 'chomsky', 'Courier New', Courier, monospace;
+        font-size: 80px;
+        margin-top: 1rem;
+        color: #0a0a88;
+        margin-left: 14rem;
+        margin-top: -5.5rem;
+
+    }
 }
 
 .listas {
@@ -67,6 +91,17 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     /* border-radius: 100%; */
+}
+
+@media(max-width:430px) {
+
+    .listas {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .line {
@@ -83,13 +118,25 @@ h2 {
 
 }
 
-.logo{
+.logo {
 
     width: 10%;
-  height: 10%;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+    height: 10%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
+
+@media(max-width:430px) {
+    #logo {
+        width: 12%;
+        height: 12%;
+        margin-bottom: 1.7rem;
+        /* margin-bottom: 2rem; */
+        margin-left: 1rem;
+    }
+
+}
+
 
 .b1>button {
     display: none;
@@ -117,6 +164,23 @@ h2 {
 
 }
 
+@media(max-width:430px) {
+    .b2>button {
+        display: none;
+        background-color;
+        cursor: pointer;
+        font-family: 'fools', Arial, 'deutshslander', 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: -900;
+        border: none;
+        text-align: left;
+        margin-top: 0.1rem;
+        margin-left: 5rem;
+        margin-bottom: 0.1rem;
+    }
+}
+
+
 .clima {
     font-family: 'homunculus', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
@@ -142,12 +206,41 @@ h2 {
     margin-left: -3rem;
 }
 
+@media(max-width:430px) {
+    #inside_lines {
+        padding: 8px;
+        display: flex;
+        justify-content: left;
+        display: none;
+    }
+}
+
+@media(max-width:430px) {
+    .line {
+        display: none;
+    }
+}
+
+
 #p1 {
     font-family: 'square', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: italic;
     font-weight: 900;
 }
+
+@media(max-width:430px) {
+    #p1 {
+        font-family: 'square', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 900;
+        margin-left: 1rem;
+        text-align: left;
+
+    }
+}
+
 
 #p2 {
     font-family: monospace;
@@ -158,6 +251,19 @@ h2 {
     font-weight: 900;
 }
 
+@media(max-width:430px) {
+    #p2 {
+        font-family: monospace;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: lighter;
+        margin-left: 1rem;
+        font-weight: 900;
+    }
+
+}
+
+
 #p3 {
     font-family: 'square', 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -167,13 +273,78 @@ h2 {
 
 }
 
+@media(max-width:430px) {
+    #p3 {
+        font-family: 'square', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 900;
+        margin-left: 1rem;
+        /* display: none; */
+        margin-top: 1rem;
+        text-align: right;
+    }
+}
+
+
 #p4 {
     font-family: 'slim', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: inherit;
     margin-left: -1rem;
-    
+
 }
+
+@media(max-width:430px) {
+    #p4 {
+        display: none;
+        font-family: 'slim', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: inherit;
+        /* font-weight: 900; */
+        margin-left: 15rem;
+        /* margin-top:  8px; */
+    }
+}
+
+.h2_titulo-mapa {
+    font-size: 2em;
+    /* font-stretch: 500; */
+
+    /* background-color: rgb(120, 169, 235); */
+    font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(116, 138, 197);
+    color: rgb(41, 40, 40);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 0.2rem;
+}
+
+@media(max-width:430px) {
+    .h2_titulo-mapa {
+        font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        background-color: rgb(116, 138, 197);
+        color: rgb(41, 40, 40);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+
+
+}
+
+
 
 /*Inicio da edição do menu superior*/
 #menu-noticia>nav>ul {
@@ -235,6 +406,28 @@ body {
     display: flex;
 }
 
+
+@media(max-width:430px) {
+    #icono_voltar {
+        width: 7.5%;
+        background-color: transparent;
+        margin-left: 2rem;
+
+    }
+}
+
+
+#Texto_voltar {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 #Texto_voltar_sup {
     font-family: 'square', 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -245,6 +438,31 @@ body {
     align-items: end;
     display: flex;
     margin-right: 5rem;
+}
+
+.h2_titulo-noticias {
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: center;
+    /* background-color: rgb(20, 7, 204); */
+    color: #ffffff;
+    font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.5rem;
+}
+
+@media(max-width:430px) {
+
+    .h2_titulo-noticias {
+
+        /* padding: 1rem; */
+        font-size: 1.7em;
+        text-align: center;
+        background-color: rgb(20, 7, 204);
+        color: #ffffff;
+        font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
 }
 
 .Titulo_ppal {
@@ -364,30 +582,31 @@ p {
 }
 
 #tecnologia {
-    background-image: url(imagens/tecnologia.jpeg);
-    background-repeat: no-repeat;
+    /* background-image: url(imagens/tecnologia.jpeg); *******desactive porque estava atrapalhando o titulo ******** att: japp 12/12/2023 11:19
+    background-repeat: no-repeat; */
     background-size: 100%;
     color: black;
     /* border: solid 1px; */
-    height: 233px;
-    width: 308px;
-    border-radius: 0px;
+    /* height: 233px; */
+    /* width: 308px; */
+    /* border-radius: 0px; */
     /* margin-top: -240px; */
     /* margin-left: 209px; */
 }
 
-#economia {
-    background-image: url(imagens/economia.jpg);
+/* #economia { *******desactive porque estava atrapalhando o titulo ******** att: japp 12/12/2023 5:20
+    background-image: url(imagens/economia.jpg); 
+    background-image: url(imagens/e);
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
-    /* border: solid 1px; */
+    border: solid 1px; 
     height: 233px;
     width: 308px;
     border-radius: 0px;
-    /* margin-top: -240px; */
-    /* margin-left: 209px; */
-}
+    margin-top: -240px; 
+    margin-left: 209px; 
+} */
 
 #noticia2>img {
     width: 40%;
@@ -404,20 +623,21 @@ p {
     /* margin-left: 1142px; */
 }
 
-@media(max-width:430px){
-  
-    .amostra1{
+@media(max-width:430px) {
+
+    .amostra1 {
         display: block;
-        margin-left: 3%;
-     
+        margin-left: 1%;
+
     }
 
-    .amostra2{
+    .amostra2 {
         display: block;
-        margin-left: 3%;
+        margin-left: 1%;
     }
 
-  #rodape{
+
+    #rodape {
         display: block;
     }
 
@@ -428,19 +648,20 @@ p {
         /* background-color: #111010; */
         background: linear-gradient(3deg, #ffffff 10%, rgb(125, 0, 0) 55%);
         border-bottom: 4px solid red;
-    display: block;
-    }
-    .footer-part1{
-    align-items: center;
+        display: block;
     }
 
-.logo{
-      margin-left: 45%;
-      width: 13%;
-    height: 13%;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
+    .footer-part1 {
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 45%;
+        width: 13%;
+        height: 13%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
 
 
     .lista-footer>a {
@@ -448,12 +669,12 @@ p {
         margin-right: 5px;
         text-align: center;
         font-size: 1.1em;
-       color: #252424;
+        color: #252424;
         padding: 100% -10%;
         border-right: 2px solid #222222;
         padding-right: 8px;
-        
-        
+
+
     }
 
     #rodape>.footer-texto>p {
@@ -461,8 +682,8 @@ p {
         margin: 0 auto;
         font-size: 1.0em;
         margin-top: -6%;
-      
-        
+
+
     }
 
 }

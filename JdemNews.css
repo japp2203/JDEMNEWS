@@ -68,22 +68,22 @@ h1 {
     }
 }
 
-h2 {
+#h2_news {
     font-family: 'chomsky', 'Courier New', Courier, monospace;
     font-size: 200px;
-    margin-top: 1rem;
+    margin-top: 0.3rem;
     margin-right: 1rem;
 
 }
 
 @media(max-width:430px) {
-    h2 {
+    #h2_news {
         font-family: 'chomsky', 'Courier New', Courier, monospace;
         font-size: 80px;
         margin-top: 1rem;
         color: #0a0a88;
         margin-left: 14rem;
-        margin-top: -5rem;
+        margin-top: -5.5rem;
 
     }
 }
@@ -119,14 +119,16 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.logo {
-    width: 10%;
-    height: 10%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+@media(max-width:430px) {
+    #logo {
+        width: 12%;
+        height: 12%;
+        margin-bottom: 1.7rem;
+        /* margin-bottom: 2rem; */
+        margin-left: 1rem;
+    }
+
 }
-
-
 
 
 .b1>button {
@@ -197,7 +199,13 @@ h2 {
         padding: 8px;
         display: flex;
         justify-content: left;
-        /* display: none; */
+        display: none;
+    }
+}
+
+@media(max-width:430px) {
+    .line {
+        display: none;
     }
 }
 
@@ -258,7 +266,9 @@ h2 {
         font-style: italic;
         font-weight: 900;
         margin-left: 1rem;
-      display: none;
+        /* display: none; */
+        margin-top: 1rem;
+        text-align: right;
     }
 }
 
@@ -273,6 +283,7 @@ h2 {
 
 @media(max-width:430px) {
     #p4 {
+        display: none;
         font-family: 'slim', 'Times New Roman', Times, serif;
         font-size: 25px;
         font-style: inherit;
@@ -313,34 +324,64 @@ h2 {
     margin: 20px;
 }
 
-#titulo-noticias {
-/* background-color: #0a0a88; */
-padding: 1rem;
-display: flex;
-justify-content: center;
-align-content: center;
-align-items: center;
-text-align: center;
+.h2_titulo-mapa {
+    font-size: 2em;
+    /* font-stretch: 500; */
+
+    /* background-color: rgb(120, 169, 235); */
+    font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(116, 138, 197);
+    color: rgb(41, 40, 40);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 0.2rem;
+}
+
+@media(max-width:430px) {
+    .h2_titulo-mapa {
+        font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        background-color: rgb(116, 138, 197);
+        color: rgb(41, 40, 40);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+
 
 }
-/* *********************************** */
-div>.titulo-noticias {
-    font-size: 3.0em;
+
+#h2_titulo-noticias {
+    font-size: 1.7em;
     font-weight: 500;
     text-align: center;
     background-color: rgb(125, 0, 0);
     color: #ffffff;
+    font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.5rem;
 }
 
 @media(max-width:430px) {
 
-    div>.titulo-noticias {
-        
+    #h2_titulo-noticias {
+
         padding: 1rem;
-        font-size: 3.0em;
-        text-align:left;
+        font-size: 1.7em;
+        text-align: center;
         background-color: rgb(125, 0, 0);
         color: #ffffff;
+        font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
+
     }
 }
 
@@ -524,6 +565,15 @@ div>#saude {
 
 /*Fim da edição do mapa*/
 
+.logo {
+    margin-left: 45%;
+    width: 13%;
+    height: 13%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
 #rodape {
     align-items: center;
     background-color: #23212170;
@@ -576,6 +626,36 @@ body>p {
     font-size: 35px;
 }
 
+#Texto_voltar {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#icono_voltar {
+    width: 2.5%;
+    background-color: transparent;
+    margin-left: 2rem;
+
+}
+
+
+#Texto_voltar {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 #Texto_voltar_sup {
     font-family: 'square', 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -588,27 +668,64 @@ body>p {
     margin-right: 5rem;
 }
 
-#icono_voltar {
-    width: 2.5%;
-    background-color: transparent;
-    margin-left: 2rem;
+
+#Texto_voltar_sup {
+    font-family: 'square', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    margin-right: 5rem;
+}
+
+#hr_voltar {
+    margin: 20px 100px;
+    width: 80%;
+    color;
+    /* border-color: red; */
+    height: 1px;
+    box-shadow: 0px 1px red;
+}
+
+@media(max-width:430px) {
+    #hr_voltar {
+        margin-left: 30px;
+        width: 80%;
+        height: 1px;
+        box-shadow: 0px 1px red;
+    }
 
 }
 
-@media(max-width:430px){
-  
-    .amostra1{
-        display: block;
-        margin-left: 3%;
-     
+
+
+@media(max-width:430px) {
+    #icono_voltar {
+        width: 7.5%;
+        background-color: transparent;
+        /* margin-left: 1rem; */
+
     }
 
-    .amostra2{
+}
+
+@media(max-width:430px) {
+
+    .amostra1 {
         display: block;
-        margin-left: 3%;
+        margin-left: 1%;
+
     }
 
-  #rodape{
+    .amostra2 {
+        display: block;
+        margin-left: 1%;
+    }
+
+    #rodape {
         display: block;
     }
 
@@ -619,21 +736,22 @@ body>p {
         /* background-color: #111010; */
         background: linear-gradient(3deg, #ffffff 10%, rgb(125, 0, 0) 55%);
         border-bottom: 4px solid red;
-    
+
         display: flex;
-    
-    }
-    .footer-part1{
-    align-items: center;
+
     }
 
-.logo{
-      margin-left: 45%;
-      width: 13%;
-    height: 13%;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
+    .footer-part1 {
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 45%;
+        width: 13%;
+        height: 13%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
 
 
     .lista-footer>a {
@@ -653,11 +771,11 @@ body>p {
         margin: 0 auto;
         font-size: 1.0em;
         margin-top: -6%;
-        margin-left:11%;
-        
+        margin-left: 11%;
+
     }
 
-    .maps{
+    .maps {
         border-radius: 30px;
     }
 
