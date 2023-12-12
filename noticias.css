@@ -460,7 +460,7 @@ body {
         background-color: rgb(20, 7, 204);
         color: #ffffff;
         font-family: 'chomsky', Verdana, Geneva, Tahoma, sans-serif;
-
+        /* margin-bottom: -10rem; */
     }
 
 }
@@ -478,8 +478,26 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content:center;
     color: #0a0a88;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:430px) {
+    .Titulo_ppal h2 {
+        width: 100%;
+        font-family: 'chomsky', 'Times New Roman', Times, serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+        color: #0a0a88;
+        margin-top: 1px;
+        margin-bottom: 2rem;
+    }
+
 }
 
 .Titulo_ppal h4 {
@@ -487,21 +505,19 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content:center;
     margin-left: 5rem;
     margin-right: 5rem;
 }
 
-
+/* 
 #img-noticia {
     justify-content: left;
     align-items: center;
     display: flex;
     align-content: center;
-    margin-left: 3rem;
-
-
-}
+    margin-left: 3rem; 
+} */
 
 #img-noticia img {
     width: 30%;
@@ -511,6 +527,20 @@ body {
     margin-left: 6em;
 
 }
+
+@media(max-width:430px) {
+    #img-noticia img {
+        width: 90%;
+        border-radius: 4%;
+        /* margin-bottom: -20rem; */
+        margin-bottom: 18rem;
+        margin-left: 1.1em;
+    
+    }
+
+}
+
+
 
 #tit_not>h3 {
     /* font-family: 'chomsky', 'Times New Roman', Times, serif; */
@@ -537,6 +567,22 @@ p {
     margin-left: 5rem;
     margin-right: 5rem;
 }
+
+@media(max-width:430px) {
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        justify-content: center;
+        color: #000000fd;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -16rem;
+    }
+}
+
 
 /* ******** AQUI VOY ************* */
 #esportes {
