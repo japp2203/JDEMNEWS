@@ -57,10 +57,35 @@ h1 {
     margin-left: 3rem;
 }
 
+@media(max-width:430px) {
+    h1 {
+        font-family: 'chomsky', 'truelike', 'Courier New', Courier, monospace;
+        font-size: 80px;
+        /* color: #020233; */
+        color: rgb(125, 0, 0);
+        margin-left: 4rem;
+        margin-top: -8rem;
+    }
+}
+
 h2 {
     font-family: 'chomsky', 'Courier New', Courier, monospace;
     font-size: 200px;
     margin-top: 1rem;
+    margin-right: 1rem;
+
+}
+
+@media(max-width:430px) {
+    h2 {
+        font-family: 'chomsky', 'Courier New', Courier, monospace;
+        font-size: 80px;
+        margin-top: 1rem;
+        color: #0a0a88;
+        margin-left: 14rem;
+        margin-top: -5rem;
+
+    }
 }
 
 .listas {
@@ -69,6 +94,17 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     border-radius: 100%;
+}
+
+@media(max-width:430px) {
+
+    .listas {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .line {
@@ -83,11 +119,23 @@ h2 {
     margin-bottom: 2rem;
 }
 
+<<<<<<< HEAD
 .logo {
     width: 10%;
     height: 10%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+=======
+@media(max-width:430px) {
+    #logo {
+        width: 10%;
+        height: 10%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+
+    }
+>>>>>>> a73c565c7ef577798de231223ec02908e4969d97
 }
 
 
@@ -118,6 +166,23 @@ h2 {
 
 }
 
+@media(max-width:430px) {
+    .b2>button {
+        display: none;
+        background-color;
+        cursor: pointer;
+        font-family: 'fools', Arial, 'deutshslander', 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: -900;
+        border: none;
+        text-align: left;
+        margin-top: 0.1rem;
+        margin-left: 5rem;
+        margin-bottom: 0.1rem;
+    }
+}
+
+
 .clima {
     font-family: 'homunculus', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
@@ -138,11 +203,32 @@ h2 {
     justify-content: left;
 }
 
+@media(max-width:430px) {
+    #inside_lines {
+        padding: 8px;
+        display: flex;
+        justify-content: left;
+        display: none;
+    }
+}
+
 #p1 {
     font-family: 'square', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: italic;
     font-weight: 900;
+}
+
+@media(max-width:430px) {
+    #p1 {
+        font-family: 'square', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 900;
+        margin-left: 1rem;
+        text-align: left;
+
+    }
 }
 
 #p2 {
@@ -155,6 +241,18 @@ h2 {
     font-weight: 900;
 }
 
+@media(max-width:430px) {
+    #p2 {
+        font-family: monospace;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: lighter;
+        margin-left: 1rem;
+        font-weight: 900;
+    }
+
+}
+
 #p3 {
     font-family: 'square', 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -162,6 +260,17 @@ h2 {
     font-weight: 900;
     margin-left: 90px;
     /* margin-top:  8px; */
+}
+
+@media(max-width:430px) {
+    #p3 {
+        font-family: 'square', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 900;
+        margin-left: 1rem;
+        /* margin-top:  8px; */
+    }
 }
 
 #p4 {
@@ -173,8 +282,19 @@ h2 {
     /* margin-top:  8px; */
 }
 
+@media(max-width:430px) {
+    #p4 {
+        font-family: 'slim', 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: inherit;
+        /* font-weight: 900; */
+        margin-left: 15rem;
+        /* margin-top:  8px; */
+    }
+}
+
 .all {
- /* padding: 10rem 10rem; */
+    /* padding: 10rem 10rem; */
     display: flex;
     /*situa lado a lado os elementos da div*/
     flex-wrap: wrap;
@@ -210,6 +330,16 @@ div>.titulo-noticias {
     text-align: center;
     background-color: rgb(125, 0, 0);
     color: #ffffff;
+}
+
+@media(max-width:430px) {
+    div>.titulo-noticias {
+        padding: 1rem;
+        font-size: 3.0em;
+        /* text-align:left; */
+        background-color: rgb(125, 0, 0);
+        color: #ffffff;
+    }
 }
 
 div>#mundo {

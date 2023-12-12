@@ -64,6 +64,18 @@ h2 {
     /* margin-left: 1rem; */
 }
 
+
+@media(max-width:430px) {
+    h2 {
+        font-family: 'chomsky', 'Courier New', Courier, monospace;
+        font-size: 1000px;
+        /* margin-top: 3rem; */
+        /* margin-left: 1rem; */
+    }
+
+
+}
+
 .listas {
     display: flex;
     justify-content: space-evenly;
@@ -124,15 +136,15 @@ h2 {
 
 /* ................................................................................................. */
 .corpo {
-padding: 16.6%;
-display: flex;
+    padding: 16.6%;
+    display: flex;
 }
 
 .titulo {
-  text-align: center;
-  justify-content: center;
-  margin-top: 1%;
-  font-size: 5em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1%;
+    font-size: 5em;
 }
 
 .texto {
@@ -141,11 +153,12 @@ display: flex;
     margin-left: 4em;
     margin-top: 5%;
     font-size: 1.7em;
- /* height:50vh ; */
+    /* height:50vh ; */
     width: 25%;
-    display: flex; 
+    display: flex;
     /* inrecmentei 3 linhas aqui acima */
 }
+
 #corpo div img {
     display: flex;
     width: 40.6em;
@@ -155,7 +168,7 @@ display: flex;
     margin-left: 42em;
     margin-top: -150px;
 
-/* 
+    /* 
     width: 50px;
     height: 50px;
     margin-right: 1em;
@@ -167,7 +180,4 @@ display: flex;
     /* border-radius: 20px; */
     /* align-items: right; */
     /* justify-content: right; */
-    } 
-
-
-
+}
