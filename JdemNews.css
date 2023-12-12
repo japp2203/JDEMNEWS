@@ -119,23 +119,11 @@ h2 {
     margin-bottom: 2rem;
 }
 
-<<<<<<< HEAD
 .logo {
     width: 10%;
     height: 10%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-=======
-@media(max-width:430px) {
-    #logo {
-        width: 10%;
-        height: 10%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 1rem;
-
-    }
->>>>>>> a73c565c7ef577798de231223ec02908e4969d97
 }
 
 
