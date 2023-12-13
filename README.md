@@ -8,4 +8,4 @@ JDEM News | Portal de Noticias
 		Accese seu site JDEM News			
 </a>
 
-<img src="frame.png" alt="CÓDIGO QR DO site Qs Bank">
+<img src="QR_Code_JDEM_News" alt="Código QR SITE Noticias JDEM News">
