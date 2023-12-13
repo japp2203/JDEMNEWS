@@ -1,10 +1,11 @@
-# JDEMNEWS
- SITE DE NOTICIAS JDEM NEWS
 
-<a href="">
- <img src="" alt="CÓDIGO QR DO site JDEMNEWS">
+JDEM News | Portal de Noticias
+
+ <a href="https://japp2203.github.io/JDEMNEWS/JdemNews.html">
+
+[https://japp2203.github.io/QsBank/aula12](https://japp2203.github.io/JDEMNEWS/JdemNews.html)
+
+		Accese seu site JDEM News			
 </a>
 
-	  JDEM Nes é seu site para estar bem informado
-
-
+<img src="frame.png" alt="CÓDIGO QR DO site Qs Bank">
