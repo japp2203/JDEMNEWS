@@ -1,24 +1,10 @@
 # JDEMNEWS
  SITE DE NOTICIAS JDEM NEWS
 
-<a>
-https://github.com/japp2203/JDEMNEWS/tree/main
-
-  <img src="qr_jdemnews" alt="Minha
-
+<a href="">
+ <img src="" alt="CÓDIGO QR DO site JDEMNEWS">
 </a>
 
-QsBank |banco digital
-
- Aqui voce coloca o objetivo do site
+	  JDEM Nes é seu site para estar bem informado
 
 
-<a href="https://japp2203.github.io/QsBank/aula12">
-
-https://japp2203.github.io/JdemNews/JdemNews.html
-
-		Accese seu site de QsbANK			
-</a>
-
-
-<img src="frame.png" alt="CÓDIGO QR DO site Qs Bank">
