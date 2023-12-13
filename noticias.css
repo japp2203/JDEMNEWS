@@ -307,7 +307,7 @@ h1 {
     }
 }
 
-#p4 >a {
+#p4>a {
     font-family: 'slim', 'Times New Roman', Times, serif;
     font-size: 25px;
     font-style: inherit;
@@ -315,11 +315,11 @@ h1 {
     margin-left: 190px;
     /* margin-top:  8px; */
     color: #000000;
-    border-bottom:2px solid black ;
-    
+    border-bottom: 2px solid black;
+
 }
 
-#p4 >a:hover{
+#p4>a:hover {
     opacity: 80%;
 }
 
@@ -495,7 +495,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     color: #0a0a88;
     margin-top: -2rem;
     margin-bottom: 2rem;
@@ -509,7 +509,7 @@ body {
         display: flex;
         align-items: center;
         text-align: center;
-        justify-content:center;
+        justify-content: center;
         color: #0a0a88;
         margin-top: 1px;
         margin-bottom: 2rem;
@@ -522,7 +522,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -547,12 +547,12 @@ body {
 
 @media(max-width:430px) {
     #img-noticia img {
-        width: 90%;
-        border-radius: 4%;
+        /* width: 90%; */
+        /* border-radius: 4%; */
         /* margin-bottom: -20rem; */
-        margin-bottom: 18rem;
-        margin-left: 1.1em;
-    
+        /* margin-bottom: 18rem; */
+        /* margin-left: 1.1em; */
+
     }
 
 }
@@ -560,9 +560,8 @@ body {
 
 
 #tit_not>h3 {
-    /* font-family: 'chomsky', 'Times New Roman', Times, serif; */
     font-size: 38px;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     text-align: left;
     justify-content: center;
@@ -573,6 +572,21 @@ body {
 
 }
 
+@media(max-width:430px) {
+    #tit_not>h3 {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+        color: #000000bd;
+        margin-top: 2rem;
+        margin-left: 18em;
+        /* margin-right: 3em; */
+    
+    }
+}
+
 p {
     /* font-family: 'chomsky', 'Times New Roman', Times, serif; */
     font-size: 22px;
@@ -581,8 +595,8 @@ p {
     text-align: justify;
     justify-content: center;
     color: #000000fd;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem; */
+    /* margin-right: 5rem; */
 }
 
 @media(max-width:430px) {
@@ -596,7 +610,7 @@ p {
         color: #000000fd;
         margin-left: 1rem;
         margin-right: 1rem;
-        margin-top: -16rem;
+        /* margin-top: -16rem; */
     }
 }
 
